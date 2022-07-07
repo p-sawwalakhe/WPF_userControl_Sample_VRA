@@ -1,0 +1,14 @@
+﻿<Window x:Class="MainApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication"       
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <local:NumberUserControl Margin="0,143,0,176" x:Name="usercontrol1" />
+        <local:NumberUserControl Margin="0,287,0,32"  x:Name="usercontrol2"/>
+        <local:NumberUserControl Margin="10,10,-10,309" x:Name="usercontrol3" />
+    </Grid>
+</Window>
